@@ -7,7 +7,7 @@
 
 ## ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png)  Git version
 
-Permet de connaite la version instalée de Git.
+Permet de connaitre la version instalée de Git.
 
     $ git --version
 
