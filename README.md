@@ -38,7 +38,7 @@ Pour conaitre le nom utilisé et le mail :
 
 ## ![Logo Doom rage1 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) Git init
 
-On crée un dossier git on si déplace et on initie le repo Git
+On crée un dossier git on s'y déplace et on initie le repo Git
 
     $ mkdir git
     $ cd git
@@ -81,11 +81,13 @@ Le nouveau statut est :
 
 ## ![Logo Doom rage4 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage438.png) Git commit
 
+On indique ce que l'on aporte au `commit`
+
     $ git commit -m < "Creat README.md" >
 
 Devrait renvoyer quelque chose comme cela :
 
-    [master (commit racine) xx123yy] Création du fichier README.md
+    [master (commit racine) xx123yy] Creat README.md
      1 file changed, 0 insertions(+), 0 deletions(-)
      create mode 100644 README.md
 
@@ -110,11 +112,11 @@ Par HTTPS :
 -----------------
 
 ## ![Logo Doom finnadie 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/finnadie38.png) Git push
-    $ git push -u origin main
 
 On écrit dans README.md puis on l'upload
 
     $ git commit -m < "Complet README.md part 1" >
+    $ git push -u origin main
 
 Devrait renvoyer :
 
