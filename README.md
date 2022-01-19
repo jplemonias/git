@@ -124,5 +124,45 @@ Devrait renvoyer :
      1 file changed, 111 insertions(+), 0 deletions(-)
      rewrite README.md (100%)
 
+-----------------
+
+Nous allon ajouter un dossier `img/leNomDeLimage.png` mais cette fois ci directement sur Github et 
+
+utiliser les commandes suivantes récupérer les nouvelles données sur Github
+
+-----------------
+
+## ![Logo Doom finnadie 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/finnadie38.png) Git fetch
+
+Permet de travailler sur une version à jour sans télécharger les fichiers
+
+    $ git fetch
+
+-----------------
+
+## ![Logo Doom finnadie 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/finnadie38.png) Git merge
+
+Télécharge les nouveaux fichiers
+
+    $ git merge
+
+Vous informe de l'ancien commit présent et le nouveau
+
+    Mise à jour 12a345b..987xy6z
+    Fast-forward
+    img/leNomDeLimage.png | Bin 0 -> 21644 bytes
+    1 file changed, 0 insertions(+), 0 deletions(-)
+    create mode 100644 img/leNomDeLimage.png
+
+
+
+
+-----------------
+
+![Logo campus numérique in alps](https://raw.githubusercontent.com/jplemonias/git/master/img/campus-numerique-in-the-alps-by-jp.png)
+
+[Le Campus Numérique In The Alps](https://le-campus-numerique.fr/)
+
+-----------------
 
 Pe@cE
