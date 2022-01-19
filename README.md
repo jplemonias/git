@@ -5,6 +5,8 @@
 
 `/!\` sont à adapter celons votre utilisation sur les lignes commençant par des `$` bien sûr ^^
 
+Les lignes ayant des `>` sont les rendus du terminal
+
 ## ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png)  Git version
 
 Permet de connaitre la version instalée de Git.
@@ -30,9 +32,9 @@ Permet de spécifier / connaitre les paramètres de configuration de Git avec la
 Pour conaitre le nom utilisé et le mail :
 
     $ git config --global user.name 
-    LoginGithub
+    > LoginGithub
     $ git config --global user.email
-    MonEmail@mail.com
+    > MonEmail@mail.com
 
 -----------------
 
@@ -55,9 +57,9 @@ On crée un dossier git on s'y déplace et on initie le repo Git
 
 A ce stade indique :
 
-    Sur la branche master
-    Aucun commit
-    rien à valider (créez/copiez des fichiers et utilisez "git add" pour les suivre)
+    > Sur la branche master
+    > Aucun commit
+    > rien à valider (créez/copiez des fichiers et utilisez "git add" pour les suivre)
 
 -----------------
 
@@ -71,11 +73,11 @@ On crée un fichier `README.md`.
 
 Le nouveau statut est :
 
-    Sur la branche master
-    Aucun commit
-    Modifications qui seront validées :
-        (utilisez "git rm --cached <fichier>..." pour désindexer)
-	        nouveau fichier : README.md
+    > Sur la branche master
+    > Aucun commit
+    > Modifications qui seront validées :
+    >     (utilisez "git rm --cached <fichier>..." pour désindexer)
+	>         nouveau fichier : README.md
 
 -----------------
 
@@ -87,9 +89,9 @@ On indique ce que l'on aporte au `commit`
 
 Devrait renvoyer quelque chose comme cela :
 
-    [master (commit racine) xx123yy] Creat README.md
-     1 file changed, 0 insertions(+), 0 deletions(-)
-     create mode 100644 README.md
+    > [master (commit racine) xx123yy] Creat README.md
+    >  1 file changed, 0 insertions(+), 0 deletions(-)
+    >  create mode 100644 README.md
 
 -----------------
 
@@ -120,9 +122,9 @@ On écrit dans README.md puis on l'upload
 
 Devrait renvoyer :
 
-    [main 123a321] Complet README.md part 1
-     1 file changed, 111 insertions(+), 0 deletions(-)
-     rewrite README.md (100%)
+    > [main 123a321] Complet README.md part 1
+    >  1 file changed, 111 insertions(+), 0 deletions(-)
+    >  rewrite README.md (100%)
 
 -----------------
 
@@ -148,11 +150,11 @@ Télécharge les nouveaux fichiers
 
 Vous informe de l'ancien commit présent et le nouveau
 
-    Mise à jour 12a345b..987xy6z
-    Fast-forward
-    img/leNomDeLimage.png | Bin 0 -> 21644 bytes
-    1 file changed, 0 insertions(+), 0 deletions(-)
-    create mode 100644 img/leNomDeLimage.png
+    > Mise à jour 12a345b..987xy6z
+    > Fast-forward
+    >  img/leNomDeLimage.png | Bin 0 -> 21644 bytes
+    >  1 file changed, 0 insertions(+), 0 deletions(-)
+    >  create mode 100644 img/leNomDeLimage.png
 
 
 
