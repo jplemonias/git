@@ -93,7 +93,7 @@ Devrait renvoyer quelque chose comme cela :
 
 -----------------
 
-## ![Logo Doom goberserk 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/goberserk38.png) Git branch
+## ![Logo Doom rage4 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage438.png) Git branch
 
     $ git branch -M main
 
@@ -111,7 +111,7 @@ Par HTTPS :
 
 -----------------
 
-## ![Logo Doom finnadie 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/finnadie38.png) Git push
+## ![Logo Doom goberserk 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/goberserk38.png) Git push
 
 On écrit dans README.md puis on l'upload
 
