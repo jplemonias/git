@@ -38,10 +38,12 @@ Pour conaitre le nom utilisé et le mail :
 
 ## ![Logo Doom rage1 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) Git init
 
-On crée un dossier git on si déplace et on initie le repo Gità l'aide de `git init`.
+On crée un dossier git on si déplace et on initie le repo Git
 
     $ mkdir git
     $ cd git
+
+à l'aide de `git init`.
 
     $ git init
     
