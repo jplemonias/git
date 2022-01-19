@@ -159,7 +159,7 @@ Vous informe de l'ancien commit présent et le nouveau
 
 -----------------
 
-![Logo campus numérique in alps](https://raw.githubusercontent.com/jplemonias/git/master/img/campus-numerique-in-the-alps-by-jp.png)
+![Logo campus numérique in alps](https://raw.githubusercontent.com/jplemonias/git/master/img/camNumInTheAlps-byJP.png)
 
 [Le Campus Numérique In The Alps](https://le-campus-numerique.fr/)
 
