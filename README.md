@@ -3,7 +3,7 @@
 
 `/!\` Les informations contenues entre les symboles `<` et `>`
 
-`/!\` sont à adapter celons votre utilisation sur les lignes commençant par des `$` biensur ^^
+`/!\` sont à adapter celons votre utilisation sur les lignes commençant par des `$` bien sûr ^^
 
 ## ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png)  Git version
 
@@ -64,7 +64,7 @@ A ce stade indique :
 On crée un fichier `README.md`.
 
     $ touch README.md
-    $ git add readme.md
+    $ git add README.md
     $ git status
 
 Le nouveau statut est :
@@ -79,7 +79,7 @@ Le nouveau statut est :
 
 ## ![Logo Doom rage4 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage438.png) Git commit
 
-    $ git commit -m "Création du fichier readme.md"
+    $ git commit -m < "Creat README.md" >
 
 Devrait renvoyer quelque chose comme cela :
 
@@ -99,13 +99,23 @@ Devrait renvoyer quelque chose comme cela :
 
 Par SSH :
 
-    $ git remote add origin git@github.com:<LoginGithub>/git.git
+    $ git remote add origin git@github.com:< LoginGithub >/git.git
 
 Par HTTPS :
 
-    $ git remote add origin https://github.com/<LoginGithub>/git.git
+    $ git remote add origin https://github.com/< LoginGithub >/git.git
 
 -----------------
 
 ## ![Logo Doom finnadie 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/finnadie38.png) Git push
     $ git push -u origin main
+
+On écrit dans README.md puis on l'upload
+
+    $ git commit -m < "Complet README.md part 1" >
+
+Devrait renvoyer :
+
+    [main 123a321] Complet README.md part 1
+     1 file changed, 111 insertions(+), 0 deletions(-)
+     rewrite README.md (100%)
