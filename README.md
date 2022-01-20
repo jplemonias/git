@@ -36,6 +36,10 @@ Pour conaitre le nom utilisé et le mail :
     $ git config --global user.email
     > MonEmail@mail.com
 
+Voir la config complète :
+
+    $ git config --list
+
 -----------------
 
 ## ![Logo Doom rage1 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) Git init
@@ -79,6 +83,8 @@ Le nouveau statut est :
     >     (utilisez "git rm --cached <fichier>..." pour désindexer)
 	>         nouveau fichier : README.md
 
+La commande `git add .` prend en compte tous les fichier et `git add < LeFichier >` le fichier ciblé.
+
 -----------------
 
 ## ![Logo Doom rage4 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage438.png) Git commit
@@ -97,11 +103,19 @@ Devrait renvoyer quelque chose comme cela :
 
 ## ![Logo Doom rage4 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage438.png) Git branch
 
+Liste des branch
+
+    $ git branch -a
+ 
+.
+
     $ git branch -M main
 
 -----------------
 
 ## ![Logo Doom goberserk 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/goberserk38.png) Git remote
+
+La commande `git remote` permet de se connecter au bon repo et la bonne branche.
 
 Par SSH :
 
@@ -115,7 +129,7 @@ Par HTTPS :
 
 ## ![Logo Doom goberserk 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/goberserk38.png) Git push
 
-On écrit dans README.md puis on l'upload
+On écrit dans README.md puis on l'upload.
 
     $ git commit -m < "Complet README.md part 1" >
     $ git push -u origin main
@@ -128,15 +142,15 @@ Devrait renvoyer :
 
 -----------------
 
-Nous allon ajouter un dossier `img/leNomDeLimage.png` mais cette fois ci directement sur Github et 
+Nous allons ajouter un dossier `img/leNomDeLimage.png` mais cette fois ci directement sur Github et 
 
-utiliser les commandes suivantes récupérer les nouvelles données sur Github
+utiliser les commandes suivantes récupérer les nouvelles données sur Github?
 
 -----------------
 
 ## ![Logo Doom finnadie 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/finnadie38.png) Git fetch
 
-Permet de travailler sur une version à jour sans télécharger les fichiers
+Permet de travailler sur une version à jour sans télécharger les fichiers.
 
     $ git fetch
 
@@ -148,7 +162,7 @@ Télécharge les nouveaux fichiers
 
     $ git merge
 
-Vous informe de l'ancien commit présent et le nouveau
+Vous informe de l'ancien commit présent et le nouveau.
 
     > Mise à jour 12a345b..987xy6z
     > Fast-forward
@@ -156,8 +170,21 @@ Vous informe de l'ancien commit présent et le nouveau
     >  1 file changed, 0 insertions(+), 0 deletions(-)
     >  create mode 100644 img/leNomDeLimage.png
 
+-----------------
 
+## Git checkout
 
+Permet de transformer le `fichier` tel qu'il était lors du `commit`.
+
+    $ git checkout < commit >
+
+-----------------
+
+## Git checkout
+
+Cette commande va défaire ce qui avait été fait au moment du `commit` en créant un nouveau commit. 
+
+    $ git checkout < commit >
 
 -----------------
 
