@@ -172,6 +172,31 @@ Vous informe de l'ancien commit présent et le nouveau.
 
 -----------------
 
+## Git tag
+
+    $ git tag < LeTagSouhaité >
+    $ git push --tag
+
+Par exemple pour un versioning :
+
+    $ git tag v1.0
+    $ git push --tag
+
+par exemple :
+
+    $ git tag v1.0
+    $ git push --tag
+    > Total 0 (delta 0), réutilisés 0 (delta 0), réutilisés du pack 0
+    > To https://github.com/jplemonias/git
+    > * [new tag]         v1.0 -> v1.0
+
+Ici la première ligne de devrait renvoyer ça 
+
+    $ git log --oneline --graph
+    > * 1a2b345 (HEAD -> main, tag: v1.0, origin/main) v 1.0
+
+-----------------
+
 ## Git checkout
 
 Permet de transformer le `fichier` tel qu'il était lors du `commit`.
@@ -185,8 +210,6 @@ Permet de transformer le `fichier` tel qu'il était lors du `commit`.
 Cette commande va défaire ce qui avait été fait au moment du `commit` en créant un nouveau commit. 
 
     $ git checkout < commit >
-
------------------
 
 ![Logo campus numérique in alps](https://raw.githubusercontent.com/jplemonias/git/master/img/camNumInTheAlps-byJP.png)
 
