@@ -193,5 +193,7 @@ Cette commande va défaire ce qui avait été fait au moment du `commit` en cré
 [Le Campus Numérique In The Alps](https://le-campus-numerique.fr/)
 
 -----------------
-
+ 
 Pe@cE
+
+v 1.0
