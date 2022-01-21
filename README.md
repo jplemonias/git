@@ -190,7 +190,7 @@ par exemple :
     > To https://github.com/jplemonias/git
     > * [new tag]         v1.0 -> v1.0
 
-Ici la première ligne de devrait renvoyer ça 
+Ici la première ligne de `git log` devrait renvoyer ça 
 
     $ git log --oneline --graph
     > * 1a2b345 (HEAD -> main, tag: v1.0, origin/main) v 1.0
@@ -205,11 +205,19 @@ Permet de transformer le `fichier` tel qu'il était lors du `commit`.
 
 -----------------
 
-## Git checkout
+## Git revert
 
 Cette commande va défaire ce qui avait été fait au moment du `commit` en créant un nouveau commit. 
 
-    $ git checkout < commit >
+    $ git revert < commit >
+
+-----------------
+
+## Git pull
+
+    $ git pull
+
+-----------------
 
 ![Logo campus numérique in alps](https://raw.githubusercontent.com/jplemonias/git/master/img/camNumInTheAlps-byJP.png)
 
